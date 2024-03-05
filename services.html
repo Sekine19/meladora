@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/ce36bf8b5f.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="container">
+                <div class="inner">
+                    <a class="phone" href="#">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(055 555 55 55)</span>
+                    </a>
+                    <div class="sosial-icons">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="bottom-nav">
+            <div class="container">
+                <div class="inner">
+                    <a href="index.html" class="logo">
+                        <img src="image/logo/black-logo.png" alt="">
+                    </a>
+                    <div class="right">
+                        <ul>
+                            <li>
+                                <a href="/about.html">Biz kimik?</a>
+                            </li>
+                            <li>
+                                <a href="/garden.html">Bağlarımız</a>
+                            </li>
+                            <li>
+                                <a href="/products.html">Məhsullarımız</a>
+                            </li>
+                            <li>
+                                <a href="/services.html">Xidmətlərimiz</a>
+                            </li>
+                            <li>
+                                <a href="/social.html">Sosial məsuliyyət</a>
+                            </li>
+                            <li>
+                                <a href="/contact.html">Əlaqə</a>
+                            </li>
+                        </ul>
+                        <div class="buttons">
+                            <button class="menu-button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <button class="search-button" data-bs-toggle="offcanvas" data-bs-target="#search-click">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="offcanvas offcanvas-end" id="mobile-menu">
+            <div class="offcanvas-header">
+                <a href="#" class="logo">
+                    <img src="image/logo/black-logo.png" alt="">
+                </a>
+                <button class="close-button" data-bs-dismiss="offcanvas">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul>
+                    <li class="active">
+                        <a href="/garden.html">Biz kimik?</a>
+                    </li>
+                    <li>
+                        <a href="/garden.html">Bağlarımız</a>
+                    </li>
+                    <li>
+                        <a href="/products.html">Məhsullarımız</a>
+                    </li>
+                    <li>
+                        <a href="/services.html">Xidmətlərimiz</a>
+                    </li>
+                    <li>
+                        <a href="/social.html">Sosial məsuliyyət</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html">Əlaqə</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="offcanvas offcanvas-top" id="search-click">
+            <div class="offcanvas-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <form action="">
+                                <input type="text" class="form-control" placeholder="Axtar" />
+                                <button>
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="close-button" data-bs-dismiss="offcanvas">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <div class="banner-img">
+            <img src="image/bg/banner-2.png" alt="">
+        </div>
+        <div class="design-img">
+            <img src="image/design/banner-design.png" alt="">
+        </div>
+    </section>
+
+    <main>
+        <section class="services-home">
+            <div class="container">
+                <div class="section-title">
+                    <h1>Xidmətlərimiz</h1>
+                    <img src="image/design/title-design-1.png" alt="">
+                </div>
+                <div class="service-container">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="service-card">
+                                <div class="icon">
+                                    <img src="image/design/service-icon/s1-img.png" alt="">
+                                </div>
+                                <h3 class="title">Damcı suvarma sistemləri</h3>
+                                <div class="text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla mollitia sed rem
+                                        soluta nisi et quaerat corporis consequuntur esse hic ea aliquam, perspiciatis
+                                        dolores reiciendis culpa amet? Modi, non assumenda.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="service-image">
+                                <img src="/image/garden/g1-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="service-card">
+                                <div class="icon">
+                                    <img src="image/design/service-icon/s2-img.png" alt="">
+                                </div>
+                                <h3 class="title">Layihələndirmə</h3>
+                                <div class="text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptatum
+                                        molestias
+                                        sint, repellat non dolores ea, iure omnis incidunt ad rem consequuntur quas?
+                                        Ratione
+                                        libero quam mollitia inventore sint quis.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="service-image">
+                                <img src="image/garden/g2-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="service-card">
+                                <div class="icon">
+                                    <img src="image/design/service-icon/s3-img.png" alt="">
+                                </div>
+                                <h3 class="title">Açar təslim bağların salınması</h3>
+                                <div class="text">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam fuga et dolor
+                                        similique
+                                        est, pariatur aspernatur molestiae corporis labore inventore consequatur soluta
+                                        reiciendis dignissimos, unde laborum cumque saepe repellat totam.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="service-image">
+                                <img src="image/garden/g3-img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="home">
+        <div class="image">
+            <img src="image/bg/footer-bg-1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-12 col-xl-6 logo-col">
+                        <a href="index.html" class="logo">
+                            <img src="image/logo/footer-logo-1.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-3">
+                        <div class="footer-links">
+                            <h3 class="title">Menyular</h3>
+                            <a href="about.html">Biz kimik?</a>
+                            <a href="garden.html">Bağlarımız</a>
+                            <a href="products.html">Məhsullarımız</a>
+                            <a href="services.html">Xidmətlərimiz</a>
+                            <a href="social.html">Sosial məsuliyyət</a>
+                            <a href="contact.html">Əlaqə</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-3">
+                        <div class="footer-links">
+                            <h3 class="title">Faydalı linklər</h3>
+                            <a href="index.html">Tez-tez soruşulanlar</a>
+                            <a href="index.html">Karyera</a>
+                            <a href="index.html">Xidmət şəbəkəsi</a>
+                            <a href="index.html">Təhlükəsizlik</a>
+                            <a href="index.html">Şərtlər və qaydalar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>@ Copyright</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
